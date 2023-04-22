@@ -1,12 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "Hello Extensions",
+  "name": "SwiftSurf",
   "description": "Base Level Extension",
   "permissions": ["tabs", "activeTab", "storage"],
   "version": "1.0",
   "action": {
     "default_icon": "flower.png",
     "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "flower.png",
+    "48": "flower.png",
+    "128": "flower.png"
   },
   "content_scripts": [
     {
