@@ -1,8 +1,7 @@
-document.querySelector("button").addEventListener("click", function () {
-  if (document.querySelector("h1")) {
-    document.querySelector("h1").classList.add("make-pink");
-  }
-});
+const ele = document.getElementsByTagName("a")[100];
+if (ele) {
+  if (ele.classList) ele.classList.add("make-pink");
+}
 
 document.querySelector("button").addEventListener("dblclick", function () {
   if (document.querySelector("h1")) {
