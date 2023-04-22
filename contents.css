@@ -3,8 +3,8 @@
 }
 
 html body {
-  background: no-repeat
-    url("https://images.pexels.com/photos/4041193/pexels-photo-4041193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  background-size: cover;
-  background-position: bottom;
+  background: repeat
+    url("https://www.billboard.com/wp-content/uploads/2023/04/taylor-swift-las-vegas-2023-billboard-1-1548.jpg?w=942&h=623&crop=1");
 }
+/* 
+url("https://www.clipartmax.com/png/middle/230-2307205_image-set-png-128x128-px-compass-icon-128-x-128-px.png") */

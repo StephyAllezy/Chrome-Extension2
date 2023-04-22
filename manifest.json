@@ -5,12 +5,18 @@
   "permissions": ["tabs", "activeTab", "storage"],
   "version": "1.0",
   "action": {
-    "default_icon": "flower.png"
+    "default_icon": "flower.png",
+    "default_popup": "popup.html"
   },
   "content_scripts": [
     {
       "js": ["contents.js"],
-      "matches": ["https://www.google.com/*"],
+      "matches": [
+        "https://www.google.com/*",
+        "https://www.yahoo.com/*",
+        "https://www.bing.com/*",
+        "https://www.baidu.com/*"
+      ],
       "css": ["contents.css"]
     }
   ]
